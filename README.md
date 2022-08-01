@@ -21,7 +21,7 @@ Save it to Google Drive:
    ```
 4. Install the cron job for automatic backup. i.e I'm automatic backup for every 3AM.
     ```bash
-    0 3 * * * <full minecraft path>/backup_n_upload.sh >> <full backup path>/backup.log 2>&1
+    0 3 * * * <full backup path>/backup_n_upload.sh >> <full backup path>/backup.log 2>&1
     ```
 5. You're done.
 
